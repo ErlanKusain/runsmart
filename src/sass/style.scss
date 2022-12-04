@@ -1,9 +1,27 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/bootstrap-grid.min';
+@import 'libs/slick';
+@import 'libs/animate';
+
+
 @import 'base/variables';
+@import 'base/animation';
 @import '../sass/blocks/promo';
 @import '../sass/blocks/header';
 @import '../sass/blocks/button';
 @import '../sass/base/media';
 @import '../sass/blocks/advantages';
+@import '../sass/blocks/titles';
+@import '../sass/blocks/consultation';
+@import '../sass/blocks/forms';
+@import '../sass/blocks/carousel';
+@import '../sass/blocks/catalog';
+@import '../sass/blocks/footer';
+@import '../sass/blocks/feed';
+@import '../sass/blocks/modal';
+@import '../sass/blocks/pageup';
+
 
 
 *{

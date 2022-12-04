@@ -1,0 +1,43 @@
+.carousel{
+    padding: 81px 0 81px 0;
+    &__inner{
+        position: relative;
+        max-width: 750px;
+        margin: 0 auto;
+        img{
+            width: 100%;
+        }
+    }
+    .prev{
+        border: none;
+        background: none;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -96px;
+        img{
+            width: 30px;
+            height: 50px;
+        }
+    }
+    .next{
+        border: none;
+        background: none;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -96px;
+        left: auto;
+        img{
+            width: 30px;
+            height: 50px;
+        }
+    }
+}
+
+// .tns-item{
+//     img{
+//         display: block;
+//         margin: 0 auto;
+//     }
+// }

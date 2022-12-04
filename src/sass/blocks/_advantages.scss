@@ -7,6 +7,12 @@
         align-items:center;
         font-weight: 700;
         margin-bottom: 60px;
+        &_title{
+            animation-name: title-advantages;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count:infinite;
+        }
         
     }
     &__wrapper{
@@ -34,6 +40,14 @@
         span{
         color: #FF0000;
         font-weight: 500;
+        }
+    }
+    &__icon{
+        &_animated{
+            animation-name: heartbeat;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
         }
     }
 }
