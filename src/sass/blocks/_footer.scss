@@ -1,6 +1,7 @@
 .footer{
     min-height: 630px;
     position: relative;
+    z-index: 3;
     &__info{
         padding: 50px 68px 60px 68px;
         position: absolute;
